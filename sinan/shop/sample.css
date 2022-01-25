@@ -1,0 +1,39 @@
+
+.side-menu ul li{
+	list-style-type:none;
+	font-weight:bold;
+	margin-top:10px;
+	cursor:pointer;
+}
+.side-menu ul li:hover{
+	color: orange;
+	
+}
+.side-menu ul li ul{
+	display:none;
+	z-index:10;
+	top:77px;
+}
+.side-menu ul li:hover ul{
+	display:block;
+	height:400px;
+	margin-left:14%;
+	padding:0 100px 10px 10px;
+    position:fixed;
+	background:#ececec;
+	box-shadow:1px 1px 4px 1px rgba(0,0,00.5);
+	}
+	
+
+	
+	  <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+	
+	
+	
